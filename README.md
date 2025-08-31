@@ -39,12 +39,18 @@ git clone https://github.com/s-oshima-kops/Android_RoomStyler.git
 
 ## プロジェクト構成
 ```
-app/src/main/java/com/example/roomstyler/
-├── ui/           # UI層 (Compose画面・ViewModel)
-├── domain/       # ドメイン層 (ビジネスロジック・モデル)
-├── data/         # データ層 (Repository・DB・API)
-├── ar/           # AR機能 (SceneView・ARCore)
-└── di/           # 依存性注入 (Hilt)
+Android_RoomStyler/
+├── app/src/main/java/com/example/roomstyler/
+│   ├── ui/           # UI層 (Compose画面・ViewModel)
+│   ├── domain/       # ドメイン層 (ビジネスロジック・モデル)
+│   ├── data/         # データ層 (Repository・DB・API)
+│   ├── ar/           # AR機能 (SceneView・ARCore)
+│   └── di/           # 依存性注入 (Hilt)
+└── doc/              # プロジェクトドキュメント
+    ├── README.md                    # ドキュメント一覧
+    ├── Android_RoomStyler_SRS_v2.md # 要件仕様書
+    ├── TEST_PLAN.md                 # テスト計画
+    └── その他開発ドキュメント
 ```
 
 ## 画面構成
@@ -66,6 +72,13 @@ app/src/main/java/com/example/roomstyler/
 - ⏳ P-08: カタログ & 追加/差し替え
 - ⏳ P-09: テレメトリ/QA
 - ⏳ P-10: 写真合成の雛形（任意）
+
+## ドキュメント
+詳細なドキュメントは [`doc/`](./doc/) ディレクトリを参照してください：
+
+- **[要件仕様書](./doc/Android_RoomStyler_SRS_v2.md)** - プロジェクト要件定義
+- **[テスト計画](./doc/TEST_PLAN.md)** - テスト戦略・手順
+- **[開発ガイド](./doc/)** - ビルド・トラブルシューティング
 
 ## ライセンス
 MIT License
