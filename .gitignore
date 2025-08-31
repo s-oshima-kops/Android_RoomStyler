@@ -91,6 +91,10 @@ lint/tmp/
 !gradle/wrapper/gradle-wrapper.jar
 !gradle/wrapper/gradle-wrapper.properties
 
+# Large temporary files
+gradle-temp.zip
+*.zip
+
 # OS-specific files
 .DS_Store
 .DS_Store?
